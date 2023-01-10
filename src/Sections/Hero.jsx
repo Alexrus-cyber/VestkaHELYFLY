@@ -1,4 +1,4 @@
-import styles from './Hero.module.css'
+import styles from './css/Hero.module.css'
 
 export const Hero = () => {
     return (
@@ -14,7 +14,7 @@ export const Hero = () => {
                                 <div style={{display:"flex", justifyContent:"start", alignItems: "center",height:50, columnGap: 10, color:"white"}}>
                                     <div>
                                         <p style={{fontSize: 20, }}>Стоимость:</p>
-                                        <p style={{fontSize: 35, fontWeight: 800}}>1500p</p>
+                                        <p style={{fontSize: 35, fontWeight: 800}}>1500₽</p>
                                     </div>
                                     <p className={styles.percent}>%</p>
                                 </div>
@@ -23,8 +23,6 @@ export const Hero = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </section>
     )
