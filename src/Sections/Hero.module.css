@@ -1,4 +1,72 @@
 .hero{
     width: 100%;
+    height: 840px;
     background-image: url("../assets/helimain.png");
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 100%;
+    width: 1140px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.containerText{
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+}
+.contTitle{
+    display: flex;
+    width: 887px;
+    margin-bottom: 29px;
+}
+.title{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+
+.price{
+    border: 1px solid #FC9B09;
+    width: 224px;
+    background: #FC9B09;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    height: 86px;
+    box-shadow: 0 5px 5px #777777;
+}
+.price::before, .price::after{
+    content: '';
+    position: absolute;
+    left: 120px; bottom: -10px;
+    width: 20px;
+    height: 10px;
+    filter: drop-shadow(0 3px 1px #777777);
+    background: linear-gradient(to right top, transparent 50%, #FC9B09 50%) left / 50% 100% no-repeat, linear-gradient(to left top, transparent 50%, #FC9B09 50%) right / 50% 100% no-repeat;
+}
+.button{
+    padding: 24px 37px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 3px;
+    margin-top: 22px;
+}
+.percent{
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+    border-radius: 100%;
+    padding: 5px;
+    width: 52px;
+    height: 52px;
+    border: 1px solid white;
 }
