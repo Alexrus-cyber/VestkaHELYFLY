@@ -39,7 +39,8 @@
     padding: 20px;
     position: relative;
     height: 86px;
-    box-shadow: 0 5px 5px #777777;
+    box-shadow: 0 4px 4px 0 #0000001A;
+
 }
 .price::before, .price::after{
     content: '';
@@ -47,7 +48,7 @@
     left: 120px; bottom: -10px;
     width: 20px;
     height: 10px;
-    filter: drop-shadow(0 3px 1px #777777);
+    filter: drop-shadow(0 4px 4px #0000001A);
     background: linear-gradient(to right top, transparent 50%, #FC9B09 50%) left / 50% 100% no-repeat, linear-gradient(to left top, transparent 50%, #FC9B09 50%) right / 50% 100% no-repeat;
 }
 .button{

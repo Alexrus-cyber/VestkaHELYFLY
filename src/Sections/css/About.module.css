@@ -1,0 +1,17 @@
+.aboutContainer{
+    width: 584px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.contact{
+    width: 360px;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 116px;
+}
+.heart{
+    position: absolute;
+    left: 300px;
+}

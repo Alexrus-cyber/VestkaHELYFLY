@@ -7,20 +7,20 @@ import arrow from "../assets/Arrow.svg";
 
 export const Gallery = () => {
     const carts = [
-        {img: woman},
-        {img: plane},
-        {img: helicopter},
-        {img: first},
-        {img: helicopter},
-        {img: first},
-        {img: plane},
-        {img: helicopter},
+        {id:1,img: woman},
+        {id:2,img: plane},
+        {id:3,img: helicopter},
+        {id:4,img: first},
+        {id:5,img: helicopter},
+        {id:6,img: first},
+        {id:7,img: plane},
+        {id:8,img: helicopter},
     ]
     return (
         <section style={{paddingTop: 30, borderBottom: "0.5px solid #C7C7C7", width: "100%"}}>
             <p className={styles.title}>Фотографии пакета: </p>
             <div className={styles.wrap}>
-                {carts.map(e => <div className={styles.wrapper}>
+                {carts.map(e => <div key={e.id} className={styles.wrapper}>
                     <picture>
                         <img src={e.img} alt={`${e.img}`}/>
                     </picture>

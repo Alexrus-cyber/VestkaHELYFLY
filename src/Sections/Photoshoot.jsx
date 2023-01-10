@@ -6,7 +6,13 @@ import {Gallery} from "./Gallery";
 import {About} from "./About";
 
 export const Photoshoot = () => {
-    const a = [1,2,3,4,5]
+    const a = [
+        {id:1},
+        {id:2},
+        {id:3},
+        {id:4},
+        {id:5},
+    ]
     return (
         <section className={styles.photoShoot}>
             <div className={styles.container}>
@@ -14,7 +20,7 @@ export const Photoshoot = () => {
                 <div style={{display:"flex", width:569, height:87, alignItems:"center", borderBottom: "0.5px solid #C7C7C7"}}>
                     <img style={{marginRight:12}} src={cup} alt="cup"/>
                     <p style={{marginRight:14}}>Более 50 отзывов с оценкой</p>
-                    {a.map(() => <img className={styles.star} src={star} alt="star"/>)}
+                    {a.map(e => <img key={e.id} className={styles.star} src={star} alt="star"/>)}
                 </div>
                 <Gallery/>
                 <About/>
