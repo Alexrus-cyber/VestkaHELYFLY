@@ -1,9 +1,9 @@
-import styles from "../../Sections/css/Photoshoot.module.css";
-import clock from "../../assets/clock.svg";
-import camera from "../../assets/camera.svg";
-import Moscow from "../../assets/Moscow.svg";
-import Message from "../../assets/Messages.svg";
-import helicopter from "../../assets/Helicopter.png";
+import styles from "../Sections/css/Photoshoot.module.css";
+import clock from "../assets/clock.svg";
+import camera from "../assets/camera.svg";
+import Moscow from "../assets/Moscow.svg";
+import Message from "../assets/Messages.svg";
+import helicopter from "../assets/Helicopter.png";
 
 export const Shooting = () => {
     return (

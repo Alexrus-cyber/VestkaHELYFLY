@@ -1,5 +1,5 @@
 import styles from './css/Photoshoot.module.css'
-import {Shooting} from '../Components/css/Shooting';
+import {Shooting} from '../Components/Shooting';
 import cup from '../assets/Cup.svg'
 import star from '../assets/star.svg'
 import {Gallery} from "./Gallery";
