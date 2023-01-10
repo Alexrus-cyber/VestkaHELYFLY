@@ -1,21 +1,23 @@
 import styles from './css/Photoshoot.module.css'
-import helicopter from '../assets/Helicopter.png'
-import clock from '../assets/clock.svg'
+import {Shooting} from '../Components/css/Shooting';
+import cup from '../assets/Cup.svg'
+import star from '../assets/star.svg'
+import {Gallery} from "./Gallery";
+import {About} from "./About";
+
 export const Photoshoot = () => {
+    const a = [1,2,3,4,5]
     return (
         <section className={styles.photoShoot}>
             <div className={styles.container}>
-                <div style={{width: 569, color: "#37373F"}}>
-                    <p className={styles.mainTitle}>Фотосессия <p>в вертолете</p></p>
-                    <p className={styles.text}>Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный фотограф запечатлит лучшие моменты</p>
-                    <ul className={styles.border}>
-                        <li className={styles.li}><img src={clock} alt={"gfdasgdg"}/>3 часа съемки</li>
-                        <li className={styles.li}>Более 50 фотографий</li>
-                        <li className={styles.li}>Москва</li>
-                        <li className={styles.li}>Готовы ответить на любые вопросы</li>
-                    </ul>
+                <Shooting />
+                <div style={{display:"flex", width:569, height:87, alignItems:"center", borderBottom: "0.5px solid #C7C7C7"}}>
+                    <img style={{marginRight:12}} src={cup} alt="cup"/>
+                    <p style={{marginRight:14}}>Более 50 отзывов с оценкой</p>
+                    {a.map(() => <img className={styles.star} src={star} alt="star"/>)}
                 </div>
-                <img style={{width: "554px", height: "374px", minWidth: "100px", minHeight: "100px"}} src={helicopter} alt="helicopter"/>
+                <Gallery/>
+                <About/>
             </div>
         </section>
     )

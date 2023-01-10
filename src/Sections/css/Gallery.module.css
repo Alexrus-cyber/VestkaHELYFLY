@@ -1,0 +1,31 @@
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 37px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 275px;
+    height: 185px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.wrapper img{
+    width: 275px;
+    height: 185px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.text{
+    color: #5286EC;
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 27px;
+    margin-top: 45px;
+}
