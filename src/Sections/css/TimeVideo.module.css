@@ -1,0 +1,41 @@
+.timeShoot{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 100%;
+    width: 1140px;
+}
+.border{
+    width: 770px;
+    height: 458px;
+    border: 1px solid #C7C7C7;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    column-gap: 14px;
+}
+.time{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-top: 1px solid #C7C7C7;
+}
+.button{
+    border:2px solid #FC9B09;
+    background: transparent;
+    color: #FC9B09;
+    border-radius: 3px;
+    padding: 16px 32px;
+}
+.star {
+    margin-right: 7px;
+}
+.marginTop{
+    margin-top: 10px;
+}
