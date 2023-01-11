@@ -5,7 +5,7 @@ import heart from "../assets/Vectorheart.svg";
 
 export const About = () => {
     return (
-        <section style={{paddingTop: 50,display:"flex", borderBottom: "0.5px solid #C7C7C7"}}>
+        <section style={{paddingTop: 50,display:"flex", borderBottom: "0.5px solid #C7C7C7", lineHeight: "24px"}}>
             <div>
                 <div className={styles.aboutContainer}>
                     <p style={{marginBottom: 14, fontSize: 18, fontWeight: 500}}>Об организаторе:</p>
@@ -13,11 +13,11 @@ export const About = () => {
                         Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов
                         туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах обслуживания
                         клиентов, специализирующихся на совместном использовании и частных турах.
-                        <p style={{marginTop: 30}}>Сначала мы (я и моя команда) изучаем интересы клиентов, а затем
-                            придумываем подходящее решение, которое соответствует бюджету
-                            и планам клиента. Мы никогда не зависим от субпоставщиков
-                            и не свяжемся…</p>
                     </p>
+                    <p style={{marginTop: 30, fontWeight: 400}}>Сначала мы (я и моя команда) изучаем интересы клиентов, а затем
+                        придумываем подходящее решение, которое соответствует бюджету
+                        и планам клиента. Мы никогда не зависим от субпоставщиков
+                        и не свяжемся…</p>
                     <p style={{color: "#5286EC"}}>Читать еще <img style={{marginLeft: 10}} src={arrow} alt={"arrow"}/></p>
                 </div>
                 <div className={styles.aboutContainer}>
@@ -36,7 +36,7 @@ export const About = () => {
                     <img style={{marginBottom: 23}} src={ellipseWoman} alt={"ellipseWoman"}/>
                     <p style={{fontSize:18 ,marginBottom: 7}}>Марина Иванова</p>
                     <p style={{fontSize:14, marginBottom: 11}}>Фотограф</p>
-                    <a href="#" style={{textDecoration: "none", color: "#5286EC", fontSize:14}}>Показать больше<br/> информации о фотографе</a>
+                    <a href="#hello" style={{textDecoration: "none", color: "#5286EC", fontSize:14}}>Показать больше<br/> информации о фотографе</a>
                 </div>
             </div>
         </section>

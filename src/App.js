@@ -4,6 +4,7 @@ import {Hero} from "./Sections/Hero";
 import {Photoshoot} from "./Sections/Photoshoot";
 import {TimeShoot} from "./Sections/TimeShoot";
 import {Map} from "./Sections/Map";
+import {Reviews} from "./Sections/Reviews";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Photoshoot/>
             <TimeShoot/>
             <Map/>
+            <Reviews/>
         </div>
     );
 }

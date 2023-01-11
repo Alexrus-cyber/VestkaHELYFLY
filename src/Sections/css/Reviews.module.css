@@ -1,0 +1,46 @@
+.reviews{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    line-height: 24px;
+}
+.container{
+    width: 1140px;
+
+}
+.cart{
+    display: flex;
+    margin-top: 40px;
+}
+.img{
+    width: 101px;
+    height: 101px;
+}
+.text{
+    width: 450px;
+    margin-left: 20px;
+    padding-bottom: 35px;
+    border-bottom: #B3B3B3 1px solid;
+}
+.marginBottom{
+    margin-bottom: 10px;
+}
+.all{
+    color: #5286EC;
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 47px;
+    margin-top: 45px;
+}
+.preFooter{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 530px;
+    align-items: center;
+}
+.icons{
+    margin-right: 30px;
+}

@@ -9,7 +9,7 @@ export const Shooting = () => {
     return (
         <div style={{display:"flex"}}>
             <div style={{width: 569, color: "#37373F",borderBottom:"0.5px solid #C7C7C7", height:440}}>
-                <p className={styles.mainTitle}>Фотосессия <p>в вертолете</p></p>
+                <p className={styles.mainTitle}>Фотосессия <br/>в вертолете</p>
                 <p className={styles.text}>Полет на вертолете это прекрасная возможность получить новые ощущения! А
                     наш замечательный фотограф запечатлит лучшие моменты</p>
                 <ul className={styles.border}>
