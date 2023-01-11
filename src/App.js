@@ -5,6 +5,7 @@ import {Photoshoot} from "./Sections/Photoshoot";
 import {TimeShoot} from "./Sections/TimeShoot";
 import {Map} from "./Sections/Map";
 import {Reviews} from "./Sections/Reviews";
+import {Footer} from "./Components/Footer";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <TimeShoot/>
             <Map/>
             <Reviews/>
+            <Footer/>
         </div>
     );
 }
