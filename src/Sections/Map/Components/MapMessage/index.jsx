@@ -1,4 +1,4 @@
-import styles from "../../Sections/Map/Map.module.css";
+import styles from "../../Map.module.css";
 
 export const MapMessage = ({text, number , title}) => {
     return (

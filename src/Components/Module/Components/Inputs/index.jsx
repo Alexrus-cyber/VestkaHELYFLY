@@ -1,5 +1,5 @@
-import styles from "../../../Sections/Hero/Hero.module.css";
-import calendar from "../../../assets/Calendar.svg";
+import styles from "../Form.module.css";
+import calendar from "../../../../assets/Calendar.svg";
 
 export const Input = (props) => {
     return (

@@ -42,3 +42,22 @@
     font-weight: 500;
     margin-bottom: 12px;
 }
+.width1140px{
+    width: 1140px;
+}
+.paddingLeft30{
+    padding-left: 30px;
+}
+.name{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.job{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.link{
+    text-decoration: none;
+    color: #5286EC;
+    font-size: 14px;
+}

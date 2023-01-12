@@ -1,0 +1,125 @@
+.img{
+    position: absolute;
+    top: -4px;
+    right: 10px;
+    width: 27px;
+    cursor: pointer;
+}
+
+.moduleText{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.input{
+    width: 420px;
+    height: 44px;
+    border-radius: 3px;
+    border: 1px solid #C7C7C7;
+    padding-left: 20px;
+    font-size: 16px;
+    outline: none;
+}
+.img{
+    position: absolute;
+    top: -4px;
+    right: 10px;
+    width: 27px;
+    cursor: pointer;
+}
+.icon{
+    position: absolute;
+    width: 20px;
+    top: 22px;
+    right: 22px;
+    cursor: pointer;
+}
+.smallInput{
+    width: 50%;
+    height: 44px;
+    border: 1px solid #C7C7C7;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.buttonModule{
+    padding: 24px 37px;
+    background: #FC9B09;
+    border: 3px solid #FC9B09;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-top: 22px;
+    width: 390px;
+    cursor: pointer;
+}
+
+.label{
+    position: relative;
+}
+.checkbox{
+    display: none;
+}
+.fake{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C7C7C7;
+    border-radius: 2px;
+}
+.fake::before{
+    content: "✔";
+    position: absolute;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    left: 1%;
+    top: 1%;
+    background-color: orange;
+    border: 1px solid orange;
+    box-shadow: 0 0 3px rgba(252, 155, 9, 0.6);
+    opacity: 0;
+    transition: .2s;
+}
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
+.title{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.dispBlock{
+    display: inline-block;
+}
+.marginT34{
+    margin-top: 34px;
+}
+.wrapperAccept{
+    display: flex;
+    width: 420px;
+    align-items: center;
+    text-align: left;
+}
+.text{
+    padding-left: 8px;
+}
+.container{
+    width: 420px;
+}
+.mainInput{
+    width: 420px;
+    height: 44px;
+    border: 1px solid #C7C7C7;
+    padding-left: 20px;
+    font-size: 16px;
+    outline: none;
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+}

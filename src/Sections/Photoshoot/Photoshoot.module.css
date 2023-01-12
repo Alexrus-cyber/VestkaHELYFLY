@@ -45,3 +45,30 @@
 .star {
     margin-right: 7px;
 }
+.wrapperCup{
+    display: flex;
+    width:569px;
+    height:87px;
+    align-items: center;
+    border-bottom: 0.5px solid #C7C7C7;
+}
+.cup{
+    margin-right: 12px;
+}
+.cupText{
+    margin-right: 14px;
+}
+.wrapperShooting{
+    width: 569px;
+    height: 440px;
+    border-bottom: 0.5px solid #C7C7C7;
+    color: #37373F;
+}
+
+.imgShoot{
+    width: 554px;
+    height: 374px;
+}
+.flex{
+    display: flex;
+}

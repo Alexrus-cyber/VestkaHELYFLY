@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    text-align: left;
 }
 .container{
     height: 100%;
@@ -36,6 +37,34 @@
 .star {
     margin-right: 7px;
 }
-.marginTop{
+.title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.wrapperCup{
+    display: flex;
+    width:569px;
+    align-items: center;
+    margin-left: 32px;
+    margin-top: 50px;
+}
+.cup{
+    margin-right: 12px;
+}
+.cupText{
+    margin-right: 14px;
+}
+.price{
+    font-weight: 600;
+    font-size: 18px;
     margin-top: 10px;
+}
+
+.marginTop10{
+    margin-top: 10px;
+}
+
+.marginLeft10{
+    margin-left: 10px;
 }

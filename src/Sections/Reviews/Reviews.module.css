@@ -44,3 +44,21 @@
 .icons{
     margin-right: 30px;
 }
+.title{
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.displayFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerIcons{
+    display: flex;
+    margin-right: 30px;
+}
+.ru{
+    font-size: 15px;
+    margin-right: 6px;
+}

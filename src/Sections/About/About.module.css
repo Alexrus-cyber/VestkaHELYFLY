@@ -15,3 +15,48 @@
     position: absolute;
     left: 300px;
 }
+.title{
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.text{
+    white-space: normal;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.subtext{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.moreText{
+    display: flex;
+    align-items: center;
+    color: #5286EC;
+}
+.moreText img{
+    margin-left: 10px;
+}
+
+.about{
+    padding-top: 50px;
+    display: flex;
+    border-bottom: 0.5px solid #C7C7C7;
+    line-height: 24px;
+}
+.ellipseWoman{
+    margin-bottom: 23px;
+}
+.name{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.job{
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+.link{
+    text-decoration: none;
+    color: #5286EC;
+    font-size: 14px;
+}
