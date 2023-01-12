@@ -1,5 +1,5 @@
-import styles from "../Sections/css/Photoshoot.module.css";
-import star from "../assets/star.svg";
+import styles from "../../Sections/Photoshoot/Photoshoot.module.css";
+import star from "../../assets/star.svg";
 
 export const FiveStars = () => {
     const stars = [

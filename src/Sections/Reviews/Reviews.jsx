@@ -1,13 +1,13 @@
-import styles from './css/Reviews.module.css'
-import review1 from '../assets/reviews1.png'
-import review2 from '../assets/reviews2.png'
-import review3 from '../assets/reviews3.png'
-import {Cart} from "../Components/Cart";
-import arrow from "../assets/Arrow.svg";
-import nameCompany from "../assets/NameCompany.svg";
-import vk from "../assets/vk.svg";
-import Facebook from "../assets/Facebook.svg";
-import Instagram from "../assets/Instragram.svg";
+import styles from './Reviews.module.css'
+import review1 from '../../assets/reviews1.png'
+import review2 from '../../assets/reviews2.png'
+import review3 from '../../assets/reviews3.png'
+import {Cart} from "../../Components/Cart/Cart";
+import arrow from "../../assets/Arrow.svg";
+import nameCompany from "../../assets/NameCompany.svg";
+import vk from "../../assets/vk.svg";
+import Facebook from "../../assets/Facebook.svg";
+import Instagram from "../../assets/Instragram.svg";
 
 export const Reviews = () => {
     const texts = [

@@ -1,6 +1,6 @@
-import styles from "../Sections/css/Reviews.module.css";
-import {FiveStars} from "./FiveStars";
-import accept from "../assets/accept.png";
+import styles from "../../Sections/Reviews/Reviews.module.css";
+import {FiveStars} from "../FiveStars/FiveStars";
+import accept from "../../assets/accept.png";
 
 export const Cart = (props) => {
     return (

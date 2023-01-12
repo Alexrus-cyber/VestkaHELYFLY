@@ -1,9 +1,9 @@
-import styles from './css/Gallery.module.css'
-import helicopter from "../assets/Helicopter.png";
-import woman from "../assets/Woman.png";
-import first from "../assets/first.png";
-import plane from "../assets/plane.png";
-import arrow from "../assets/Arrow.svg";
+import styles from './Gallery.module.css'
+import helicopter from "../../assets/Helicopter.png";
+import woman from "../../assets/Woman.png";
+import first from "../../assets/first.png";
+import plane from "../../assets/plane.png";
+import arrow from "../../assets/Arrow.svg";
 
 export const Gallery = () => {
     const carts = [

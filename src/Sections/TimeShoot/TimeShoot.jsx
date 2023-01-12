@@ -1,7 +1,7 @@
-import styles from './css/TimeVideo.module.css'
-import cup from "../assets/Cup.svg";
-import calendar from "../assets/Calendar.svg";
-import {FiveStars} from "../Components/FiveStars";
+import styles from './TimeVideo.module.css'
+import cup from "../../assets/Cup.svg";
+import calendar from "../../assets/Calendar.svg";
+import {FiveStars} from "../../Components/FiveStars/FiveStars";
 
 export const TimeShoot = () => {
     return (

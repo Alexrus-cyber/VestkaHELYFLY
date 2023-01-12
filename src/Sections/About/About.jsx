@@ -1,7 +1,7 @@
-import styles from './css/About.module.css'
-import arrow from "../assets/Arrow.svg";
-import ellipseWoman from "../assets/EllipseWoman.png";
-import heart from "../assets/Vectorheart.svg";
+import styles from './About.module.css'
+import arrow from "../../assets/Arrow.svg";
+import ellipseWoman from "../../assets/EllipseWoman.png";
+import heart from "../../assets/Vectorheart.svg";
 
 export const About = () => {
     return (
@@ -36,7 +36,7 @@ export const About = () => {
                     <img style={{marginBottom: 23}} src={ellipseWoman} alt={"ellipseWoman"}/>
                     <p style={{fontSize:18 ,marginBottom: 7}}>Марина Иванова</p>
                     <p style={{fontSize:14, marginBottom: 11}}>Фотограф</p>
-                    <a href="#hello" style={{textDecoration: "none", color: "#5286EC", fontSize:14}}>Показать больше<br/> информации о фотографе</a>
+                    <a href="src/Sections/About/About#hello" style={{textDecoration: "none", color: "#5286EC", fontSize:14}}>Показать больше<br/> информации о фотографе</a>
                 </div>
             </div>
         </section>

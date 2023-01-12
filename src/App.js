@@ -1,11 +1,11 @@
 import './App.css';
-import {Header} from "./Components/Header";
-import {Hero} from "./Sections/Hero";
-import {Photoshoot} from "./Sections/Photoshoot";
-import {TimeShoot} from "./Sections/TimeShoot";
-import {Map} from "./Sections/Map";
-import {Reviews} from "./Sections/Reviews";
-import {Footer} from "./Components/Footer";
+import {Header} from "./Components/Header/Header";
+import {Hero} from "./Sections/Hero/Hero";
+import {Photoshoot} from "./Sections/Photoshoot/Photoshoot";
+import {TimeShoot} from "./Sections/TimeShoot/TimeShoot";
+import {Map} from "./Sections/Map/Map";
+import {Reviews} from "./Sections/Reviews/Reviews";
+import {Footer} from "./Components/Footer/Footer";
 
 function App() {
     return (

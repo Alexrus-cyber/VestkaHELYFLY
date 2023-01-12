@@ -1,6 +1,6 @@
-import styles from './css/Footer.module.css'
-import visa from '../assets/VISA.svg'
-import MC from '../assets/MC.svg'
+import styles from '../css/Footer.module.css'
+import visa from '../../assets/VISA.svg'
+import MC from '../../assets/MC.svg'
 
 export const Footer = () => {
     return (

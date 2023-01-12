@@ -1,5 +1,5 @@
-import styles from './css/Map.module.css'
-import woman from '../assets/EllipseWoman.png'
+import styles from './Map.module.css'
+import woman from '../../assets/EllipseWoman.png'
 export const Map = () => {
     return (
         <section className={styles.map}>

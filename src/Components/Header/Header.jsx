@@ -1,5 +1,5 @@
-import styles from './css/Header.module.css'
-import helyfly from '../assets/NameCompany.svg'
+import styles from '../css/Header.module.css'
+import helyfly from '../../assets/NameCompany.svg'
 
 export const Header = () => {
     return (

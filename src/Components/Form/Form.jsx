@@ -1,6 +1,6 @@
-import styles from "../Sections/css/Hero.module.css";
-import close from "../assets/Close.png";
-import calendar from "../assets/Calendar.svg";
+import styles from "../../Sections/Hero/Hero.module.css";
+import close from "../../assets/Close.png";
+import calendar from "../../assets/Calendar.svg";
 
 export const Form = ({setActive}) => {
     return (
