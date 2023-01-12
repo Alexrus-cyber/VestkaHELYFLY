@@ -1,9 +1,9 @@
 import styles from './Photoshoot.module.css'
-import {Shooting} from '../../Components/Shooting/Shooting';
+import {Shooting} from '../../Components/Shooting/index';
 import cup from '../../assets/Cup.svg'
-import {Gallery} from "../Gallery/Gallery";
-import {About} from "../About/About";
-import {FiveStars} from "../../Components/FiveStars/FiveStars";
+import {Gallery} from "../Gallery/index";
+import {About} from "../About/index";
+import {FiveStars} from "../../Components/FiveStars";
 
 export const Photoshoot = () => {
     return (

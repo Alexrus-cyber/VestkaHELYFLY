@@ -1,6 +1,7 @@
 import styles from "../../Sections/Hero/Hero.module.css";
 import close from "../../assets/Close.png";
-import calendar from "../../assets/Calendar.svg";
+import {Input} from "./Inputs/index";
+import {inputs} from "../../Contstants";
 
 export const Form = ({setActive}) => {
     return (
@@ -8,29 +9,7 @@ export const Form = ({setActive}) => {
             <img className={styles.img} style={{width: 20, top: 22, right: 22}} onClick={()=> setActive(false)} src={close} alt={"close"}/>
             <h1 style={{fontSize: 22,marginBottom: 10}}>Бронирование</h1>
             <div style={{display: "inline-block"}}>
-                <div>
-                    <p className={styles.moduleText}>Дата<b style={{color: "red"}}>*</b></p>
-                    <label style={{position: "relative"}}>
-                        <img className={styles.img} src={calendar} alt={"vk"}/>
-                        <input placeholder={"Дата"} className={styles.input}/>
-                    </label>
-                </div>
-                <div>
-                    <p className={styles.moduleText}>Email<b style={{color: "red"}}>*</b></p>
-                    <input placeholder={"Электронная почта"} className={styles.input}/>
-                </div>
-                <div>
-                    <p className={styles.moduleText}>Имя<b style={{color: "red"}}>*</b></p>
-                    <input placeholder={"Имя"} className={styles.input}/>
-                </div>
-                <div>
-                    <p className={styles.moduleText}>Фамилия<b style={{color: "red"}}>*</b></p>
-                    <input placeholder={"Фамилия"} className={styles.input}/>
-                </div>
-                <div>
-                    <p className={styles.moduleText}>Телефон<b style={{color: "red"}}>*</b></p>
-                    <input placeholder={"+7 (905) 184-81-40"} className={styles.input}/>
-                </div>
+                {inputs.map(r =>   <Input key={r.id} object={r.object} placeholder={r.placeholder} title={r.title}/>)}
                 <div>
                     <p className={styles.moduleText}>Данные карты<b style={{color: "red"}}>*</b></p>
                     <div style={{width: 420}}>

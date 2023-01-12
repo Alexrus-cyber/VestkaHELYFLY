@@ -1,9 +1,6 @@
 import styles from "../../Sections/Photoshoot/Photoshoot.module.css";
-import clock from "../../assets/clock.svg";
-import camera from "../../assets/camera.svg";
-import Moscow from "../../assets/Moscow.svg";
-import Message from "../../assets/Messages.svg";
 import helicopter from "../../assets/Helicopter.png";
+import {menuShooting} from "../../Contstants";
 
 export const Shooting = () => {
     return (
@@ -13,10 +10,7 @@ export const Shooting = () => {
                 <p className={styles.text}>Полет на вертолете это прекрасная возможность получить новые ощущения! А
                     наш замечательный фотограф запечатлит лучшие моменты</p>
                 <ul className={styles.border}>
-                    <li className={styles.li}><img src={clock} alt={"clock"}/>3 часа съемки</li>
-                    <li className={styles.li}><img src={camera} alt={"clock"}/>Более 50 фотографий</li>
-                    <li className={styles.li}><img src={Moscow} alt={"clock"}/>Москва</li>
-                    <li className={styles.li}><img src={Message} alt={"clock"}/>Готовы ответить на любые вопросы</li>
+                    {menuShooting.map(m =>  <li key={m.id} className={styles.li}><img src={m.img} alt={"clock"}/>{m.text}</li>)}
                 </ul>
             </div>
             <img style={{width: "554px", height: "374px", minWidth: "100px", minHeight: "100px"}} src={helicopter}

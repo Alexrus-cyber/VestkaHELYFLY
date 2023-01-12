@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../css/Module.module.css'
+import styles from './Module.module.css'
 
 export const Module = ({active, children}) => {
     return (

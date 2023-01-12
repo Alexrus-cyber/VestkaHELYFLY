@@ -1,7 +1,7 @@
 import styles from './Hero.module.css'
 import {useState} from "react";
-import {Module} from "../../Components/Module/Module";
-import {Form} from "../../Components/Form/Form";
+import {Module} from "../../Components/Module";
+import {Form} from "../../Components/Form";
 
 export const Hero = () => {
     const [active, setActive] = useState(false);

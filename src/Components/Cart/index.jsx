@@ -1,5 +1,5 @@
 import styles from "../../Sections/Reviews/Reviews.module.css";
-import {FiveStars} from "../FiveStars/FiveStars";
+import {FiveStars} from "../FiveStars";
 import accept from "../../assets/accept.png";
 
 export const Cart = (props) => {
