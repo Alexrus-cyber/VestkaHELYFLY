@@ -7,6 +7,17 @@ import {aboutMessage} from "../../Contstants/index"
 export const About = () => {
     return (
         <section className={styles.about}>
+            <div className={styles.contactH}>
+                <div>
+                    <img className={styles.heart} src={heart} alt={"ellipseWoman"}/>
+                    <img className={styles.ellipseWoman} src={ellipseWoman} alt={"ellipseWoman"}/>
+                    <p className={styles.name}>Марина Иванова</p>
+                    <p className={styles.job}>Фотограф</p>
+                    <a href="src/Sections/About/About#hello"
+                       className={styles.link}>Показать больше<br/> информации
+                        о фотографе</a>
+                </div>
+            </div>
             <div>
                 {aboutMessage.map(m => <AboutMessage key={m.id} text={m.text} text2={m.text2} title={m.title}/>)}
             </div>

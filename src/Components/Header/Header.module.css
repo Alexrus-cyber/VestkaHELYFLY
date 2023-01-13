@@ -6,7 +6,8 @@
 }
 
 .container{
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     column-gap: 36px;
@@ -16,4 +17,27 @@
 }
 .telephone{
     color: #B3B3B3;
+}
+.hidden{
+    display: none;
+}
+.helyfly{
+
+}
+@media screen and (max-width: 320px) {
+    .container{
+        max-width: 320px;
+        justify-content: space-between;
+        align-items: center;
+        transform: scale(0.9);
+    }
+    .phone{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+    .helyfly{
+        transform: scale(0.9);
+    }
 }

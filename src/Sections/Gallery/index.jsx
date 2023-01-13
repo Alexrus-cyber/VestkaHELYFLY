@@ -5,7 +5,8 @@ import {carts} from "../../Contstants";
 export const Gallery = () => {
     return (
         <section className={styles.gallery}>
-            <p className={styles.title}>Фотографии пакета: </p>
+            <p className={styles.title}>Фотографии пакета</p>
+            <p className={styles.titleH}>Фотографии <br/> пакета</p>
             <div className={styles.wrap}>
                 {carts.map(e => <div key={e.id} className={styles.wrapper}>
                     <picture>

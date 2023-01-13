@@ -1,10 +1,12 @@
 .aboutContainer{
-    width: 584px;
+    max-width: 584px;
+    width: 100%;
     text-align: left;
     margin-bottom: 40px;
 }
 .contact{
-    width: 360px;
+    max-width: 360px;
+    width: 100%;
     height: 350px;
     position: relative;
     display: flex;
@@ -59,4 +61,34 @@
     text-decoration: none;
     color: #5286EC;
     font-size: 14px;
+}
+.contactH{
+    max-width: 360px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: none;
+    justify-content: center;
+    margin-left: 116px;
+}
+
+@media screen and (max-width: 320px) {
+    .about{
+        display: block;
+        padding-top: 20px;
+        border: none;
+    }
+    .contact{
+        display: none;
+        height: 250px;
+        margin: 0;
+    }
+    .heart{
+        left: 230px;
+    }
+    .contactH{
+        display: flex;
+        height: 300px;
+        margin: 0;
+    }
 }

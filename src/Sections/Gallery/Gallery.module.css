@@ -4,6 +4,12 @@
     display: flex;
     margin-bottom: 37px;
 }
+.titleH{
+    font-size: 28px;
+    font-weight: 400;
+    display: none;
+    margin-bottom: 37px;
+}
 .wrap{
     display: flex;
     flex-wrap: wrap;
@@ -41,4 +47,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 320px) {
+    .wrap{
+        overflow: hidden;
+        flex-wrap: nowrap;
+    }
+    .gallery{
+        border: none;
+    }
+    .title{
+        display: none;
+        justify-content: center;
+        text-align: center;
+    }
+    .titleH{
+        display: flex;
+        justify-content: center;
+    }
+    .displayCenter{
+        display: none;
+    }
 }
