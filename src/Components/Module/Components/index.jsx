@@ -14,11 +14,10 @@ export const Form = ({setActive}) => {
                     <p className={styles.moduleText}>Данные карты<b style={{color: "red"}}>*</b></p>
                     <div className={styles.container}>
                         <input placeholder={"Номер карты"} className={styles.mainInput}/>
-                        <div style={{display: "flex", alignItems: "center"}}>
+                        <div className={styles.validity}>
                             <input placeholder={"Срок действия"}
-                                   style={{borderRight: "none", borderBottomLeftRadius: 3}}
                                    className={styles.smallInput}/>
-                            <input placeholder={"CVV"} style={{borderBottomRightRadius: 3}}
+                            <input placeholder={"CVV"}
                                    className={styles.smallInput}/>
                         </div>
                     </div>
