@@ -18,8 +18,10 @@ export const TimeShoot = () => {
                     {placeTime.map(p => <PlaceTime key={p.id} time={p.time} price={p.price} places={p.places}/>)}
                     <div className={styles.wrapperCup}>
                         <img className={styles.cup} src={cup} alt="cup"/>
-                        <p className={styles.cupText}>Более 50 отзывов с оценкой</p>
-                        <FiveStars/>
+                        <div className={styles.cupContainer}>
+                            <p className={styles.cupText}>Более 50 отзывов с оценкой</p>
+                            <FiveStars/>
+                        </div>
                     </div>
                 </div>
             </div>

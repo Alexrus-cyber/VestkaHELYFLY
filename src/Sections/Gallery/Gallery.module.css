@@ -12,6 +12,7 @@
 }
 .wrap{
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     -webkit-box-pack: center;
     justify-content: center;
@@ -23,7 +24,7 @@
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.wrapper img{
+.img{
     max-width: 275px;
     width: 100%;
     height: 185px;
@@ -67,5 +68,8 @@
     }
     .displayCenter{
         display: none;
+    }
+    .img{
+        position: absolute;
     }
 }

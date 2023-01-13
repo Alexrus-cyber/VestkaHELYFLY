@@ -71,6 +71,9 @@
 .marginLeft10{
     margin-left: 10px;
 }
+.cupContainer{
+    display: flex;
+}
 
 @media screen and (max-width: 322px){
     .timeShoot{
@@ -81,13 +84,21 @@
         transform: scale(0.9);
     }
     .wrapperCup{
-        margin: 0;
+        border-top: 1px solid #C7C7C7;
+        margin: 0 0 0 0;
+        padding: 25px 30px;
     }
     .cupText{
-        margin: 0;
+        margin-bottom: 3px;
     }
     .title{
         text-align: center;
         font-size: 28px;
+    }
+    .cupContainer{
+        display: block;
+        text-align: left;
+        font-size: 13px;
+
     }
 }

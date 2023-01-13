@@ -10,7 +10,7 @@ export const Gallery = () => {
             <div className={styles.wrap}>
                 {carts.map(e => <div key={e.id} className={styles.wrapper}>
                     <picture>
-                        <img src={e.img} alt={`${e.img}`}/>
+                        <img className={styles.img} src={e.img} alt={`${e.img}`}/>
                     </picture>
                 </div>)}
             </div>
