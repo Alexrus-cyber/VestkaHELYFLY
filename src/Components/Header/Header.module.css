@@ -21,10 +21,8 @@
 .hidden{
     display: none;
 }
-.helyfly{
 
-}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 322px) {
     .container{
         max-width: 320px;
         justify-content: space-between;
@@ -36,6 +34,7 @@
     }
     .hidden{
         display: block;
+        color: #5286EC;
     }
     .helyfly{
         transform: scale(0.9);

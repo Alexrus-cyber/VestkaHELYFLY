@@ -6,7 +6,8 @@
     line-height: 24px;
 }
 .container{
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
 
 }
 .cart{
@@ -18,7 +19,8 @@
     height: 101px;
 }
 .text{
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     margin-left: 20px;
     padding-bottom: 35px;
     border-bottom: #B3B3B3 1px solid;
@@ -61,4 +63,27 @@
 .ru{
     font-size: 15px;
     margin-right: 6px;
+}
+.arr{
+    display: block;
+}
+@media screen and (max-width: 322px) {
+    .title{
+        text-align: center;
+        font-size: 28px;
+    }
+    .preFooter{
+        transform: scale(0.9);
+        justify-content: space-between;
+        column-gap: 50px;
+    }
+    .ru{
+        display: none;
+    }
+    .arr{
+        display: none;
+    }
+    .icons{
+        margin-right: 20px;
+    }
 }

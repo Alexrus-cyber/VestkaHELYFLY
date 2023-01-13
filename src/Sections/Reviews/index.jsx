@@ -9,7 +9,7 @@ export const Reviews = () => {
         <section className={styles.reviews}>
             <div className={styles.container}>
                 <div>
-                    <p className={styles.title}>Отзывы:</p>
+                    <p className={styles.title}>Отзывы</p>
                     {texts.map(e => <Cart key={e.id} name={e.name} job={e.job} text={e.text} data={e.data}
                                           img={e.img}/>)}
                     <div className={styles.displayFlex}>
@@ -23,7 +23,7 @@ export const Reviews = () => {
                         <img src={nameCompany} alt="nameCompany"/>
                         <div className={styles.containerIcons}>
                             {socialIcons.map(s => <img key={s.id} className={styles.icons} src={s.img} alt={s.img}/> )}
-                            <p className={styles.ru}>RU</p><img src={arrow} alt={"arrow"}/>
+                            <p className={styles.ru}>RU</p><img className={styles.arr} src={arrow} alt={"arrow"}/>
                         </div>
                     </div>
                 </div>

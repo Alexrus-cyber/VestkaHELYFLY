@@ -1,11 +1,13 @@
 import styles from './Map.module.css'
 import woman from '../../assets/EllipseWoman.png'
+import map from '../../assets/map.png'
 import {MapMessage} from "./Components/MapMessage";
 import {mapMessage} from "../../Contstants";
 
 export const Map = () => {
     return (
         <section className={styles.map}>
+            <img className={styles.img} src={map} alt={"map"}/>
             <div className={styles.width1140px}>
                 <div className={styles.border}>
                     <div className={styles.paddingLeft30}>
@@ -22,7 +24,6 @@ export const Map = () => {
 
                 </div>
             </div>
-
         </section>
     )
 }

@@ -17,6 +17,7 @@
     margin-left: 40px;
     margin-right: 5px;
     width: 15px;
+    height: 15px;
 }
 .reviewText{
     color: #B3B3B3;
@@ -31,12 +32,60 @@
     margin-top: 40px;
 }
 .img{
-    width: 101px;
+    max-width: 101px;
+    width: 100%;
     height: 101px;
 }
 .containerText{
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     margin-left: 20px;
     padding-bottom: 35px;
     border-bottom: #B3B3B3 1px solid;
+}
+.xxx{
+    display: flex;
+    align-items: center;
+}
+.imgh{
+    max-width: 101px;
+    width: 100%;
+    height: 101px;
+}
+.infoh{
+    display: none;
+}
+
+@media screen and (max-width: 322px) {
+    .cart{
+
+    }
+    .img{
+        display: none;
+    }
+    .infoh{
+        display: flex;
+        column-gap: 20px;
+    }
+    .info{
+        display: none;
+    }
+    .imgh{
+        display: block;
+
+    }
+    .container{
+        display: block;
+        margin: 0;
+    }
+    .accept{
+        margin: 0;
+    }
+    .star{
+        display: none;
+    }
+    .xxx{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 }
