@@ -130,6 +130,7 @@
         height: 655px;
         background-image: url("../../assets/helimain.png");
         display: flex;
+        background-position: -650px;
         justify-content: center;
         background-repeat: no-repeat;
         background-size: cover;

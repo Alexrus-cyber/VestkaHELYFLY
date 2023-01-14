@@ -50,9 +50,14 @@
     align-items: center;
 }
 @media screen and (max-width: 320px) {
+    .wrap::-webkit-scrollbar{
+        width: 0;
+    }
     .wrap{
-        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: auto;
         flex-wrap: nowrap;
+        justify-content: unset;
     }
     .gallery{
         border: none;
@@ -70,6 +75,6 @@
         display: none;
     }
     .img{
-        position: absolute;
+        width: 275px;
     }
 }
