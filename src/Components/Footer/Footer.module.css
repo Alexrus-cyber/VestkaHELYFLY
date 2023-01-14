@@ -3,6 +3,7 @@
     justify-content: center;
     height: 77px;
     background: #FAF9F8;
+    width: 100%;
 }
 .container{
     width: 1025px;
@@ -29,4 +30,37 @@
 }
 .marginBottom7{
     margin-bottom: 7px;
+}
+.ru{
+    font-size: 15px;
+    margin-right: 6px;
+}
+.arr{
+    display: block;
+}
+.iconsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width: 322px) {
+    .footer{
+        height: unset;
+    }
+    .container{
+        display: block;
+    }
+    .icons{
+        display: flex;
+        margin-bottom: 20px;
+        column-gap: 10px;
+        margin-right: 40px;
+    }
+    .text{
+        flex: unset;
+        text-align: center;
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+
 }

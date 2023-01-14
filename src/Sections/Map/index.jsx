@@ -9,7 +9,6 @@ import {useState} from "react";
 
 export const Map = () => {
     const [message, setMessage] = useState(1);
-
     const handler2 = () => {
         setMessage(message - 1)
         if (message <= 1){
@@ -17,7 +16,6 @@ export const Map = () => {
         }
     }
     const handler = () => {
-
         setMessage(message + 1)
         if (message >= 3){
             setMessage(1)

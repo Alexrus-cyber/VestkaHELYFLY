@@ -54,6 +54,7 @@
     align-items: center;
     border-radius: 100%;
     color: white;
+    margin-right: 18px;
 }
 .question{
     font-size: 18px;
