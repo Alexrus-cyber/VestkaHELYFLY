@@ -35,6 +35,9 @@
     font-size: 15px;
     margin-right: 6px;
 }
+.ruCont{
+    display: none;
+}
 .arr{
     display: block;
 }
@@ -62,5 +65,7 @@
         margin-right: 0;
         padding-bottom: 20px;
     }
-
+    .ruCont{
+        display: flex;
+    }
 }

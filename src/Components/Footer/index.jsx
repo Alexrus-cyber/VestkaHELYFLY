@@ -12,7 +12,7 @@ export const Footer = () => {
                         <img className={styles.img} src={MC} alt={"MC"}/>
                         <img className={styles.img + ' ' + styles.marginLeft20} src={visa} alt={"Visa"}/>
                     </div>
-                    <div style={{display:"flex"}}>
+                    <div className={styles.ruCont}>
                         <p className={styles.ru}>RU</p><img className={styles.arr} src={arrow} alt={"arrow"}/>
                     </div>
                 </div>
